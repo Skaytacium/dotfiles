@@ -1,0 +1,207 @@
+{
+    "console_title": true,
+    "final_space": true,
+    "blocks": [{
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [{
+                    "type": "os",
+                    "style": "diamond",
+                    "leading_diamond": "\ue0b2",
+                    "foreground": "#42B8B8",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue0b3</> ",
+                        "windows": "\uf17a"
+                    }
+                },
+                {
+                    "type": "shell",
+                    "style": "plain",
+                    "foreground": "lightCyan",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> \ufcb5 "
+                    }
+                },
+                {
+                    "type": "root",
+                    "style": "plain",
+                    "foreground": "#42B8B8",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> ",
+                        "root_icon": "\uf2dd"
+                    }
+                },
+                {
+                    "type": "node",
+                    "style": "plain",
+                    "foreground": "lightCyan",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> \uf898 ",
+                        "display_version": true
+                    }
+                },
+                {
+                    "type": "python",
+                    "style": "plain",
+                    "foreground": "lightCyan",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> \ue235 "
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "plain",
+                    "foreground": "#42B8B8",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> ",
+                        "always_enabled": true
+                    }
+                },
+                {
+                    "type": "executiontime",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b0",
+                    "foreground": "lightYellow",
+                    "background": "#504945",
+                    "properties": {
+                        "threshold": 0,
+                        "prefix": "<#fe8019>\ue621</> ",
+                        "always_enabled": true,
+                        "postfix": " <#fe8019>\ue0b1</>"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "right",
+            "segments": [{
+                    "type": "session",
+                    "style": "diamond",
+                    "leading_diamond": "\ue0b2",
+                    "foreground": "lightYellow",
+                    "background": "#504945",
+                    "properties": {
+                        "user_info_separator": " on ",
+                        "prefix": "<#fe8019>\ue0b3</> "
+                    }
+                },
+                {
+                    "type": "time",
+                    "style": "plain",
+                    "foreground": "lightCyan",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> ",
+                        "time_format": "Mon Jan 2 15:04:05 MST 2006"
+                    }
+                },
+                {
+                    "type": "battery",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b0",
+                    "foreground": "#42B8B8",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> ",
+                        "display_error": true,
+                        "battery_icon": "\uf8ef",
+                        "charging_icon": "\uf587 ",
+                        "discharging_icon": "\uf57d ",
+                        "charged_icon": "\uf578 ",
+                        "display_charging": true,
+                        "postfix": " <#fe8019>\ue0b1</>"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "newline"
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [{
+                    "type": "path",
+                    "style": "diamond",
+                    "leading_diamond": "\ue0b2",
+                    "foreground": "lightCyan",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue0b3</> ",
+                        "style": "short"
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b0",
+                    "foreground": "lightCyan",
+                    "background": "#504945",
+                    "properties": {
+                        "prefix": "<#fe8019>\ue621</> ",
+                        "postfix": " <#fe8019>\ue0b1</>",
+                        "branch_icon": "\ufb2b ",
+                        "display_stash_count": true,
+                        "status_separator_icon": " <#fe8019>\ue621</>",
+                        "local_working_icon": " \uf8ea",
+                        "local_staged_icon": " \uf62b",
+                        "stash_count_icon": "<#fe8019>\ue621</> \uf15b ",
+                        "tag_icon": "\uf02b",
+                        "merge_icon": "\ufb2c",
+                        "display_upstream_icon": true,
+                        "github_icon": "\uf408 ",
+                        "git_icon": "\uf7a1 "
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "right",
+	    "horizontal_offset": -1,
+            "segments": [{
+                "type": "spotify",
+                "style": "diamond",
+                "trailing_diamond": "\ue0b0",
+                "leading_diamond": "\ue0b2",
+                "foreground": "lightCyan",
+                "background": "#504945",
+                "properties": {
+                    "playing_icon": "<lightYellow>\uf90c</> ",
+                    "paused_icon": "<lightYellow>\uf8e5</> ",
+                    "stopped_icon": "<lightYellow>\ufb66</> ",
+                    "track_separator": " <#fe8019>\ue621</> ",
+                    "prefix": "<#fe8019>\ue0b3</> <#42B8B8>\uf1bc</> ",
+                    "postfix": " <#fe8019>\ue0b1</>"
+                }
+            }]
+        },
+        {
+            "type": "newline"
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [{
+                "type": "text",
+                "style": "diamond",
+                "trailing_diamond": "\ue0b0",
+                "leading_diamond": "\ue0b2",
+                "foreground": "lightYellow",
+                "background": "#504945",
+                "properties": {
+                    "text": "sk",
+                    "prefix": "<#fe8019>\ue0b3</>",
+                    "postfix": "<#fe8019>\ue0b1</>"
+                }
+            }]
+        }
+    ]
+}

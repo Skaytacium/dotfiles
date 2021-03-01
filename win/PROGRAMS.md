@@ -2,7 +2,7 @@
 
 ### Legend
 
-- * next to a program means it has a note [here](./NOTES.md).
+- * next to a program means it has to be self-compiled.
 
 ### CLI
 
@@ -19,6 +19,9 @@
 - Python
 - Java JDK 8
 - Dotnet SDK
+- Oh My Posh!
+- Speedtest CLI (Ookla)
+- Rust & Cargo
 
 ### GUI
 
@@ -40,3 +43,12 @@
 - WinDirStat
 - DS4Windows
 - OpenTabletDriver *
+- Notepad++
+- Syncplay
+- OBS
+- WinRAR
+- Spotify
+
+### Other
+
+- Visual Studio Community

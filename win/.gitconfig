@@ -1,0 +1,23 @@
+[core]
+	user = Skaytacium
+	editor = "C:/Windows/vim.bat"
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Sid K
+	email = skaytacium@gmail.com
+	signingkey = 2A434247076F499D
+[push]
+	default = upstream
+	followTags = true
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+[credential]
+	helper = manager-core
