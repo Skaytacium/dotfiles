@@ -48,7 +48,10 @@
 - OBS
 - WinRAR
 - Spotify
+- Ditto
 
 ### Other
 
 - Visual Studio Community
+- SuperF4
+- Temperature display software
