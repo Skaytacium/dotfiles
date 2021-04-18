@@ -1,3 +1,3 @@
 # Linux dotfiles and configs
 
-TODO
+Linux scripts, dotfiles and configs
