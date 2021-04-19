@@ -9,7 +9,7 @@ Not much to write about it, except that these are mainly meant for me and might 
 Just got a new PC and shifting is hard so I made this.
 
 ### How?
-I'm not going to be making an install script because I rarely shift computers so doing it manually is fine with me. A markdown file with all of the locations and some other notes is provided.
+~~I'm not going to be making an install script because I rarely shift computers so doing it manually is fine with me. A markdown file with all of the locations and some other notes is provided.~~
 
 lmao I made an install script.
 
